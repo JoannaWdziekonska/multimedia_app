@@ -7,8 +7,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.yogaapp"
-        minSdk 16
-        targetSdk 32
+        minSdkVersion 17
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 

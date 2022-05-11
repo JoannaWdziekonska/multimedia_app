@@ -10,8 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YogaApp">
         <activity
+            android:name=".SecondActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Splashscreenok"
             android:exported="true">
@@ -21,7 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
