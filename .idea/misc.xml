@@ -6,11 +6,26 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1065" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/backgroundcrop.xml" value="0.122" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/btn.xml" value="0.1225" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/button_bg.xml" value="0.107" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/button_bg_round.xml" value="0.107" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/button_ji.xml" value="0.107" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.1065" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1065" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_boundangle.xml" value="0.14878153056861906" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_catcow.xml" value="0.14878153056861906" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_crow.xml" value="0.14878153056861906" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_eagle.xml" value="0.14878153056861906" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_forwardbend.xml" value="0.14878153056861906" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_second.xml" value="0.20094057289439932" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_runnerslunge.xml" value="0.14878153056861906" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_second.xml" value="0.15" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_second2.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_sideplank.xml" value="0.14878153056861906" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_sidestretch.xml" value="0.14878153056861906" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_splashscreenok.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_third.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_third2.xml" value="0.16844805472424113" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/YogaApp/app/src/main/res/layout/activity_treepose.xml" value="0.14878153056861906" />
       </map>
     </option>
   </component>
