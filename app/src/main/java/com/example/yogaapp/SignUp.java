@@ -74,7 +74,7 @@ public class SignUp extends AppCompatActivity {
                         InetAddress addr = null;
 
                         //String url = String.format("http://localhost/LoginRegister/signup.php", addr.getHostAddress());
-                        PutData pdata = new PutData("http://localhost/LoginRegister/signup.php", "POST", field, data);
+                        PutData pdata = new PutData("http://192.168.7.11/LoginRegister/signup.php", "POST", field, data);
                         if (pdata.startPut()) {
                             if (pdata.onComplete()) {
                                 progressBar.setVisibility(View.GONE);
