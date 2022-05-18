@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -35,7 +36,7 @@ public class Login extends AppCompatActivity {
 
         textInputEditTextUsername = findViewById(R.id.username);
         textInputEditTextPassword = findViewById(R.id.password);
-        buttonLogin = findViewById(R.id.buttonSignUp);
+        buttonLogin = findViewById(R.id.buttonLogin);
         texViewSignUp =  findViewById(R.id.signUpText);
         progressBar = findViewById(R.id.progress);
 
@@ -51,7 +52,7 @@ public class Login extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String firstname, lastname, username, email, password;
+                String  username, password;
 
                 username = String.valueOf(textInputEditTextUsername.getText());
 
@@ -70,20 +71,16 @@ public class Login extends AppCompatActivity {
                             data[0] = username;
                             data[1]= password;
                             InetAddress addr = null;
-                            try {
-                                addr = getLocalHost();
-                            } catch (UnknownHostException e) {
-                                e.printStackTrace();
-                            }
-                            String url = String.format("http://%s/LoginRegister/login.php", addr.getHostAddress());
-                            PutData pdata = new PutData(url, "POST", field, data);
+
+                           // String url = String.format("http://localhost/LoginRegister/login.php", addr.getHostAddress());
+                            PutData pdata = new PutData("http://localhost/LoginRegister/login.php", "POST", field, data);
                             if (pdata.startPut()) {
                                 if (pdata.onComplete()) {
                                     progressBar.setVisibility(View.GONE);
                                     String result = pdata.getResult();
                                     if (result.equals("Login Success")){
                                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                        Intent intent = new Intent(getApplicationContext(), Splashscreenok.class);
                                         startActivity(intent);
                                         finish();
                                     }
