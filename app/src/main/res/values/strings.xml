@@ -3,4 +3,5 @@
     <string name="password">password</string>
     <string name="login">login</string>
     <string name="signuphere">sign up here</string>
+    <string name="username">username</string>
 </resources>
