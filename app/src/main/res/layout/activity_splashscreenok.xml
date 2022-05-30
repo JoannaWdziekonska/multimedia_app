@@ -20,7 +20,7 @@
         android:layout_marginTop="279dp"
         android:layout_marginEnd="61dp"
         android:layout_marginRight="61dp"
-        android:background="@drawable/button_bg_round_2"
+
         android:src="@drawable/yoga_icon" />
 
     <TextView
