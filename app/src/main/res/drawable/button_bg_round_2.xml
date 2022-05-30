@@ -6,7 +6,7 @@
         <shape android:shape="oval">
             <gradient
                 android:angle="45"
-                android:centerColor="#E91E63"
+                android:centerColor="@color/purple_200"
                 android:centerX="15%"
                 android:type="linear"
                 />

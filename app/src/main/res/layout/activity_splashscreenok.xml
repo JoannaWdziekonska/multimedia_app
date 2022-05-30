@@ -5,23 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background">
-    tools:context=".Splashscreenok">
-
 
     <ImageView
         android:id="@+id/appsplash"
-        android:layout_width="135dp"
-        android:layout_height="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="255dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:background="@drawable/button_bg_round_2"
         android:src="@drawable/yoga_icon" />
-
 
     <TextView
         android:id="@+id/appname"
@@ -30,6 +30,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="400dp"
+        android:fontFamily="@font/poppinsmedium"
         android:text="Let's do some yoga"
         android:textColor="#B7BCBC"
         android:textSize="35dp"
@@ -41,8 +42,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="600dp"
-        android:text="Welcome Michalina"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="490dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Welcome"
         android:textColor="#B7BCBC"
         android:textSize="35dp"
         android:textStyle="bold" />

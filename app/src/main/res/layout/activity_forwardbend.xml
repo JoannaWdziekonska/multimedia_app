@@ -30,6 +30,7 @@
                 android:background="@drawable/button_bg_round_2"
                 android:padding="15dp"
                 android:text="01:00"
+                android:textStyle="bold"
                 android:textSize="28sp"
                 app:backgroundTint="@color/purple_200" />
 
