@@ -134,7 +134,7 @@
                 android:drawableEnd="@drawable/ic_user"
                 android:drawableRight="@drawable/ic_user"
                 android:fontFamily="@font/poppinsmedium"
-                android:textColorHint="#616161"
+                android:textColorHint="#FFF"
                 tools:targetApi="jelly_bean" />
 
         </com.google.android.material.textfield.TextInputLayout>
