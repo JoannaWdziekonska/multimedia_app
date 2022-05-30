@@ -109,7 +109,7 @@
                             >
 
                             <pl.droidsonroids.gif.GifImageView
-                                android:layout_width="fill_parent"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/sidestretch"
 
@@ -125,17 +125,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 
@@ -235,17 +225,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 
@@ -345,17 +325,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 
@@ -455,17 +425,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 
@@ -565,17 +525,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 
@@ -675,17 +625,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 

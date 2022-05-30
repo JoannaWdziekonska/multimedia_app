@@ -25,6 +25,7 @@ public class PutData extends Thread {
         System.arraycopy(data, 0, this.data, 0, data.length);
     }
 
+
     @Override
     public void run() {
         try {
@@ -61,7 +62,7 @@ public class PutData extends Thread {
     }
 
     public boolean startPut() {
-        PutData.this.start();
+        PutData.this.start();// calling run() method
         return true;
     }
 
