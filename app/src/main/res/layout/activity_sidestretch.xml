@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="08dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="70dp"
                 android:layout_marginRight="08dp"
                 android:layout_weight="0"
                 android:background="@drawable/btn"
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/purple_200"
-                android:visibility="gone"
+
                 app:cardCornerRadius="20dp">
 
 
