@@ -73,7 +73,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="sidestretch"
+                                android:text="Side stretch"
                                 android:textAllCaps="true"
                                 android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
@@ -669,6 +669,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -684,8 +686,8 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
                                 android:text="runners lunge"
+                                android:textColor="@color/purple_200"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -736,16 +738,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
-                            android:layout_weight="0.0"
-                            >
+                            android:layout_weight="0.0">
 
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
 
-                                />
 
                         </LinearLayout>
 
@@ -779,6 +774,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -795,7 +792,7 @@
                                 android:fontFamily="monospace"
                                 android:text="side plank"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -847,17 +844,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-
-                                />
-
-                        </LinearLayout>
+                            />
 
 
 
@@ -889,6 +876,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -905,7 +894,7 @@
                                 android:fontFamily="monospace"
                                 android:text="tree pose"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -977,8 +966,6 @@
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
                         android:background="#FFF" />
-
-
                 </LinearLayout>
 
 

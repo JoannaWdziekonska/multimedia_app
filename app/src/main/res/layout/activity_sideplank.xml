@@ -13,6 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <pl.droidsonroids.gif.GifImageView
@@ -32,7 +33,7 @@
                 android:text="01:00"
                 android:textSize="28sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/purple_200"/>
+                app:backgroundTint="@color/purple_200" />
 
 
             <Button
@@ -47,20 +48,23 @@
                 android:gravity="center"
                 android:text="START"
                 android:textColor="#FFF"
-                android:textSize="25sp"
+                android:textSize="25dp"
                 android:textStyle="bold"
                 app:backgroundTint="@color/purple_200"
 
                 />
 
             <TextView
-                android:layout_width="356dp"
+                android:id="@+id/startbutton"
+                android:layout_width="354dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="70dp"
-                android:layout_marginRight="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="08dp"
+                android:layout_weight="0"
                 android:background="@drawable/btn"
+                android:gravity="center|bottom"
                 android:padding="7dp"
                 android:text="Instruction:"
                 android:textAlignment="center"
@@ -74,9 +78,10 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-
                 android:background="@color/purple_200"
+                android:visibility="gone"
                 app:cardCornerRadius="20dp">
+
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -85,9 +90,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="25dp"
                     android:background="@color/purple_200"
-                    android:orientation="horizontal"
-
-                    >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="match_parent"
