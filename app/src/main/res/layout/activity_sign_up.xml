@@ -8,7 +8,8 @@
     tools:context=".SignUp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:background="#301728FF"
+        android:background="@drawable/backgroundcrop"
+        android:alpha="0.6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,6 +20,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:fontFamily="@font/poppinsbold"
             android:gravity="center"
             android:text="@string/signup"
@@ -187,7 +189,8 @@
             android:id="@+id/loginText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
+
             android:fontFamily="@font/poppinsmedium"
             android:text="@string/loginhere"
             android:textColorHint="#FFF"

@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#000"
+    android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context="com.example.yogaapp.SecondActivity2">
+    tools:context="com.example.yogaapp.SecondActivity">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/design_default_color_primary_dark"
-
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:title="Yoga App"
@@ -57,6 +56,8 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         android:orientation="horizontal"
                         >
 
@@ -74,7 +75,7 @@
                                 android:fontFamily="monospace"
                                 android:text="Climber"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -110,7 +111,7 @@
                             >
 
                             <pl.droidsonroids.gif.GifImageView
-                                android:layout_width="fill_parent"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/sidestretch"
 
@@ -158,6 +159,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -174,7 +177,7 @@
                                 android:fontFamily="monospace"
                                 android:text="Climber"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -258,6 +261,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -274,7 +279,7 @@
                                 android:fontFamily="monospace"
                                 android:text="Climber"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -310,7 +315,7 @@
                             >
 
                             <pl.droidsonroids.gif.GifImageView
-                                android:layout_width="fill_parent"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/crow"
 
@@ -358,6 +363,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -374,7 +381,7 @@
                                 android:fontFamily="monospace"
                                 android:text="Climber"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -458,6 +465,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -474,7 +483,7 @@
                                 android:fontFamily="monospace"
                                 android:text="Climber"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -558,6 +567,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
                         android:orientation="horizontal"
+                        android:background="@drawable/backgroundcrop_2"
+                        android:alpha="0.8"
                         >
 
                         <LinearLayout
@@ -574,7 +585,7 @@
                                 android:fontFamily="monospace"
                                 android:text="Climber"
                                 android:textAllCaps="true"
-                                android:textColor="#FFF"
+                                android:textColor="@color/purple_200"
                                 android:textSize="15.0dp"
                                 android:textStyle="bold"
 
@@ -966,10 +977,6 @@
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
                         android:background="#FFF" />
-
-
-
-
 
 
                 </LinearLayout>

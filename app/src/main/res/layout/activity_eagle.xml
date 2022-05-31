@@ -27,12 +27,12 @@
                 android:layout_marginLeft="115dp"
                 android:layout_marginTop="35dp"
                 android:layout_marginRight="115dp"
-                android:background="@drawable/button_bg_round"
+                android:background="@drawable/button_bg_round_2"
                 android:padding="15dp"
                 android:text="01:00"
-                android:textStyle="bold"
                 android:textSize="28sp"
-                app:backgroundTint="@color/purple_200" />
+                android:textStyle="bold"
+                app:backgroundTint="@color/purple_200"/>
 
 
             <Button

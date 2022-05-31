@@ -10,11 +10,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="415dp"
         android:layout_height="605dp"
-        android:background="#301428FF"
+        android:background="@drawable/backgroundcrop"
+        android:alpha="0.6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView"
@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsbold"
             android:gravity="center"
+            android:layout_marginTop="30dp"
             android:text="@string/login"
             android:textColor="#FFF"
             android:textSize="30sp"
@@ -39,8 +40,8 @@
             android:layout_marginTop="100dp"
             android:layout_marginRight="30dp"
             android:hint="@string/username"
-            android:textColorHint="#FFF"
             android:textColor="#FFF"
+            android:textColorHint="#FFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -61,10 +62,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:hint="@string/password"
             android:fontFamily="monospace"
-            android:textColorHint="#FFF"
+            android:hint="@string/password"
             android:textColor="#FFF"
+            android:textColorHint="#FFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutUsername">
 
@@ -75,8 +76,8 @@
                 android:drawableEnd="@drawable/ic_password"
                 android:fontFamily="@font/poppinsmedium"
                 android:inputType='textPassword'
-                android:textColorHint="#FFF"
                 android:textColor="#FFF"
+                android:textColorHint="#FFF"
                 tools:targetApi="jelly_bean" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,15 +106,17 @@
 
         <TextView
             android:id="@+id/signUpText"
+            android:gravity="center"
             android:layout_width="100dp"
             android:layout_height="25dp"
             android:layout_marginTop="104dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="@string/signuphere"
-            android:textColorHint="#FFF"
             android:textColor="#FFF"
+            android:textColorHint="#FFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
             app:layout_constraintVertical_bias="1.0"

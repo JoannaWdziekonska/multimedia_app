@@ -39,6 +39,7 @@
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
                 android:background="@drawable/backgroundcrop"
+                android:alpha="0.7"
                 android:orientation="vertical"
                 >
 
@@ -92,8 +93,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
-                            android:text="      Everyday 15 min"
-                            android:textColor="#AA22FF"
+                            android:layout_marginLeft="15dp"
+                            android:text="Everyday 15 min"
+                            android:textColor="@color/purple_200"
                             android:textSize="20.0dp"
                             android:textStyle="bold"></TextView>
 
@@ -146,6 +148,7 @@
                   android:layout_margin="10.0dp"
                   android:background="@drawable/btn"
                   android:text="Get started"
+                  app:backgroundTint="@color/purple_200"
                   android:textAllCaps="true"/>
 
 
@@ -156,6 +159,7 @@
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
                 android:background="@drawable/backgroundcrop"
+                android:alpha="0.7"
                 android:orientation="vertical"
                 >
 
@@ -209,8 +213,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
-                            android:text="      Everyday 15 min"
-                            android:textColor="#AA22FF"
+                            android:layout_marginLeft="15dp"
+                            android:text="Everyday 15 min"
+                            android:textColor="@color/purple_200"
                             android:textSize="20.0dp"
                             android:textStyle="bold"></TextView>
 
@@ -263,6 +268,7 @@
                     android:layout_margin="10.0dp"
                     android:background="@drawable/btn"
                     android:text="Get started"
+                    app:backgroundTint="@color/purple_200"
                     android:textAllCaps="true"/>
 
 
@@ -273,6 +279,7 @@
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
                 android:background="@drawable/backgroundcrop"
+                android:alpha="0.7"
                 android:orientation="vertical"
                 >
 
@@ -315,18 +322,16 @@
 
                             android:textColor="#B7BCBC"
                             android:textSize="20.0dp"
-                            android:textStyle="bold"
-
-
-                            />
+                            android:textStyle="bold" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
-                            android:text="      Everyday 15 min"
-                            android:textColor="#AA22FF"
+                            android:layout_marginLeft="15dp"
+                            android:text="Everyday 15 min"
+                            android:textColor="@color/purple_200"
                             android:textSize="20.0dp"
                             android:textStyle="bold"></TextView>
 
@@ -378,6 +383,7 @@
                     android:layout_margin="10.0dp"
                     android:background="@drawable/btn"
                     android:text="Get started"
+                    app:backgroundTint="@color/purple_200"
                     android:textAllCaps="true"/>
 
 
