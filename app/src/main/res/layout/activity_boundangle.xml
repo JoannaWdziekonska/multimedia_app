@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/boundangle" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Begin in Staff Pose. Sit directly on top of your sitting bones, rather than behind them.
+Bend your knees and allow them to fall open to the sides.
+Draw the soles of your feet together and use your hands to open them as if you were opening the pages of a book.
+Press your shoulder blades against your upper back to lift through your sternum or chest. Clasp your ankles to help you find lift along your torso.
+To exit the pose, gently release your feet and come back to Staff Pose.
+"
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 

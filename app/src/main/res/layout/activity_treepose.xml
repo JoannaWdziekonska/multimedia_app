@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/treepose" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Stretches your feet. Tree pose can help stretch and strengthen the ligaments and tendons in your feet.
+Improves balance. Tree pose requires proper weight distribution and posture, which can help provide stability to your groin, thighs, hips, and pelvis.
+Strengthens your core. Balancing your total weight on one leg requires active engagement in your core, which can help strengthen it over time and provide increased steadiness.
+"
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 

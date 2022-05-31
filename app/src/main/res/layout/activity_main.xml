@@ -69,7 +69,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="0.5dp"
-                            android:text="   Before Age 18"
+                            android:text="   Begginer"
                             android:textColor="#B7BCBC"
                             android:textSize="20.0dp"
                             android:textStyle="bold"
@@ -189,7 +189,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="0.5dp"
-                            android:text="   After Age 18"
+                            android:text="   Advanced"
                             android:textColor="#B7BCBC"
                             android:textSize="20.0dp"
                             android:textStyle="bold"
@@ -214,7 +214,7 @@
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
                             android:layout_marginLeft="15dp"
-                            android:text="Everyday 15 min"
+                            android:text="Everyday 30 min"
                             android:textColor="@color/purple_200"
                             android:textSize="20.0dp"
                             android:textStyle="bold"></TextView>
@@ -283,108 +283,6 @@
                 android:orientation="vertical"
                 >
 
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="150.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-
-
-                    >
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1.0"
-                        android:orientation="vertical"
-
-                        >
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="monospace"
-                            android:padding="0.5dp"
-                            android:text="   Before Age 18"
-                            android:textColor="#B7BCBC"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-
-                            android:padding="5.0dp"
-
-                            android:textColor="#B7BCBC"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold" />
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="5.0dp"
-                            android:layout_marginLeft="15dp"
-                            android:text="Everyday 15 min"
-                            android:textColor="@color/purple_200"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2.0"
-
-                        >
-
-
-                        <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/zen"
-
-
-                            />
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.0"
-                        >
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:padding="10.0dp"
-                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-                            />
-
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10.0dp"
-                    android:background="@drawable/btn"
-                    android:text="Get started"
-                    app:backgroundTint="@color/purple_200"
-                    android:textAllCaps="true"/>
 
 
             </LinearLayout>

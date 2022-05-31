@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/crow" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Place your knees on the backs of your upper arms.
+Begin to bring your weight forward into your hands, lifting your head as you go.
+Come up onto your tiptoes, lifting one foot and then the other off the floor.
+Engage the inner thighs for support while keeping the knees on the arms.
+Hug your feet toward your butt.
+Focus on the feeling of the body lifting. Avoid sinking into the pose, which can dump weight into the shoulders.
+To come out, exhale and transfer your weight back until your feet come back to the floor.
+"
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 

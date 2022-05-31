@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/sideplank" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Begin in Adho Mukha Svanasana (Downward-Facing Dog Pose), then shift forward into Plank Pose.
+Roll onto the outside edge of your right foot, and stack your left foot on top of your right.
+Swing your left hand onto your left hip, turning your torso to the left as you do. Support the weight of your body on the outer right foot and right hand.
+Align your body into one long diagonal line from your heels to the crown of your head.
+Stretch your left arm toward the ceiling, so it is in line with your shoulders. Keep your head neutral, or gaze up at the left hand.
+Stay in the position for several breaths, then return to Plank and repeat on the other side.
+"
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 

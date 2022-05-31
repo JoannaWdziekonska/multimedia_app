@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/forwardbend" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Begin in Dandasana (Staff Pose), sitting on the edge of a folded blanket. Press your heels away from your body; press your palms or finger tips into the floor beside your hips.
+Inhale. Keeping your front torso long, exhale and lean forward from your hips. Lengthen the spine to fold toward your legs, without rounding your back.
+Walk your hands out along the outside of each leg as far as they will go. If you can reach them, hold the sides of your feet with your hands.
+With each inhalation, lift and lengthen your front torso just slightly; with each exhalation, release a little more fully into the forward bend. If you are holding your feet, bend your elbows out to the sides and lift them away from the floor.
+Stay in the pose from 1–3 minutes. To come up, release your feet. Inhale and lift your torso by pulling your tailbone down and into the pelvis.
+"
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 

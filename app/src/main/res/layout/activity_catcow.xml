@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/catcow" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Begin on your hands and knees in table pose, with a neutral spine. As you inhale and move into cow pose, lift your sit bones upward, press your chest forward and allow your belly to sink.
+Lift your head, relax your shoulders away from your ears, and gaze straight ahead.
+As you exhale, come into cat pose while rounding your spine outward, tucking in your tailbone, and drawing your pubic bone forward.
+Release your head toward the floor — just don’t force your chin to your chest. Most importantly, just relax.
+"
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 

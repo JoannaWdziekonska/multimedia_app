@@ -18,7 +18,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/sidestretch" />
+                android:src="@drawable/runnerslunge" />
 
             <Button
                 android:id="@+id/time"
@@ -93,7 +93,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#FFF"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+                        android:text="Start in Mountain pose and inhale into Upward Salute pose. Exhale into a standing forward bend. Place both hands on the floor and step the right foot back, placing the ball of the foot on the floor and keeping the right leg straight. The left foot is between the hands, which are shoulder-width apart, palms flat on the floor. The left knee is directly over the left ankle.  Look forward, keeping the chin parallel with the floor and extending the spine. Take a breath and while exhaling, soften the groin and let it sink toward the floor."
                         android:textColor="@color/purple_200"
                         android:textSize="20dp" />
 
