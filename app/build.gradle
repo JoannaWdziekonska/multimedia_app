@@ -42,4 +42,5 @@ dependencies {
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test:rules:1.4.0'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.2'
 }

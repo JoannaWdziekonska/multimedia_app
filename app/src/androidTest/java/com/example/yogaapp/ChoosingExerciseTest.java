@@ -105,6 +105,11 @@ public class ChoosingExerciseTest {
                         isDisplayed()));
         appCompatButton.perform(click());
 
+        /*
+        onView(withClassName(is(Toast.class.getCanonicalName()))).inRoot(new ToastMatcher())
+                .check(matches(withText("Login Success")));
+        */
+
 
         ViewInteraction linearLayout = onView(
                 allOf(withId(R.id.FIRST_ACTIVITY_GROUP),
@@ -133,15 +138,17 @@ public class ChoosingExerciseTest {
                         isDisplayed()));
         button2.check(matches(isDisplayed()));
 
+        ViewInteraction timeBtn= onView(
+                allOf(withId(R.id.time),
+                        isDisplayed()));
+        timeBtn.check(matches(isDisplayed()));
+
+        timeBtn.check(matches(withText("01:00")));
+
 
         button2.perform(scrollTo(), click());
 
 
-
-        button2.check(matches(isDisplayed()));
-
-
-        button2.perform(scrollTo(), click());
 
         try {
             Thread.sleep(4000);
@@ -150,9 +157,11 @@ public class ChoosingExerciseTest {
         }
 
         button2.perform(scrollTo(), click());
+        timeBtn.check(matches(withText("00:55")));
 
 
-        button2.check(matches(isDisplayed()));
+
+
     }
 
     private static Matcher<View> childAtPosition(

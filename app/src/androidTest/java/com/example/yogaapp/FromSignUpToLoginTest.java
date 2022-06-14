@@ -1,5 +1,7 @@
 package com.example.yogaapp;
 
+import static android.support.test.espresso.intent.Intents.intended;
+import static android.support.test.espresso.intent.matcher.IntentMatchers.hasComponent;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -42,10 +44,13 @@ public class FromSignUpToLoginTest {
     public ActivityTestRule<SignUp> mActivityTestRule = new ActivityTestRule(SignUp.class);
 
 
+
     @Before
     public void setUp(){
         IdlingRegistry.getInstance().register(EspressoIdlingResource.getIdlingResource());
     }
+
+
 
 
     @Test
@@ -65,7 +70,17 @@ public class FromSignUpToLoginTest {
                                         0),
                                 8),
                         isDisplayed()));
+
+
         appCompatTextView.perform(click());
+        intended(hasComponent(Login.class.getName()));
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
 
          onView(
                 allOf(withId(R.id.username),
