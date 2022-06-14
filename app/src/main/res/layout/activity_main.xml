@@ -349,7 +349,7 @@
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
                             android:layout_marginLeft="15dp"
-                            android:text="Everyday in your free time"
+                            android:text="Everyday in a free time"
                             android:textColor="@color/purple_200"
                             android:textSize="20.0dp"
                             android:textStyle="bold"></TextView>

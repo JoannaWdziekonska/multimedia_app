@@ -29,6 +29,7 @@ public class PutData extends Thread {
     @Override
     public void run() {
         try {
+
             String UTF8 = "UTF-8", iso = "iso-8859-1";
             URL url = new URL(this.url);
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
@@ -62,7 +63,7 @@ public class PutData extends Thread {
     }
 
     public boolean startPut() {
-        PutData.this.start();// calling run() method
+        PutData.this.start(); // calling run() method
         return true;
     }
 

@@ -1,9 +1,5 @@
 package com.example.yogaapp;
 
-import static java.net.InetAddress.getLocalHost;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,10 +9,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.yogaapp.util.EspressoIdlingResource;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.net.InetAddress;
-import java.net.UnknownHostException;
+
 
 public class SignUp extends AppCompatActivity {
 
@@ -38,7 +37,6 @@ public class SignUp extends AppCompatActivity {
         buttonSignUp = findViewById(R.id.buttonSignUp);
         textViewLogin = findViewById(R.id.loginText);
         progressBar = findViewById(R.id.progress);
-
         textViewLogin.setOnClickListener(v -> {
             Intent intent =  new Intent(getApplicationContext(), Login.class);
             startActivity(intent);
@@ -59,6 +57,7 @@ public class SignUp extends AppCompatActivity {
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
+                        EspressoIdlingResource.increment();
                         String[] field = new String[5];
                         field[0] = "firstname";
                         field[1] = "lastname";
@@ -79,6 +78,7 @@ public class SignUp extends AppCompatActivity {
                             if (pdata.onComplete()) {
                                 progressBar.setVisibility(View.GONE);
                                 String result = pdata.getResult();
+                                EspressoIdlingResource.decrement();
                                 if (result.equals("Sign Up Success")){
                                     Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(getApplicationContext(), Login.class);
