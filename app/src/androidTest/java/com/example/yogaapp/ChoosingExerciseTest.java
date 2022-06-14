@@ -1,18 +1,19 @@
 package com.example.yogaapp;
 
+
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static androidx.test.espresso.matcher.ViewMatchers.isFocusable;
 import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,29 +36,27 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class LoginTest {
+public class ChoosingExerciseTest {
 
     @Rule
-    public ActivityTestRule<SignUp> mActivityTestRule = new ActivityTestRule(SignUp.class);
-
+    public ActivityTestRule<SignUp> mActivityTestRule = new ActivityTestRule<>(SignUp.class);
 
     @Before
     public void setUp(){
         IdlingRegistry.getInstance().register(EspressoIdlingResource.getIdlingResource());
     }
 
-
     @Test
-    public void loginTest() {
+    public void choosingExerciseTest() {
 
-        ViewInteraction textView = onView(
+
+        ViewInteraction textView2 = onView(
                 allOf(withId(R.id.loginText),
                         withParent(withParent(IsInstanceOf.<View>instanceOf(android.view.ViewGroup.class))),
                         isDisplayed()));
-        textView.check(matches(isDisplayed()));
+        textView2.check(matches(withText("login here")));
 
         ViewInteraction appCompatTextView = onView(
                 allOf(withId(R.id.loginText),
@@ -77,26 +76,24 @@ public class LoginTest {
                                         0),
                                 0),
                         isDisplayed()));
-        textInputEditText.perform(replaceText("1"), closeSoftKeyboard());
+        textInputEditText.perform(click());
 
         ViewInteraction textInputEditText2 = onView(
-                allOf(withId(R.id.password), isDisplayed()));
-        textInputEditText2.perform(replaceText("1"), closeSoftKeyboard());
-
-
-        ViewInteraction editText3 = onView(
                 allOf(withId(R.id.username),
-                        withParent(withParent(withId(R.id.textInputLayoutUsername))),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.textInputLayoutUsername),
+                                        0),
+                                0),
                         isDisplayed()));
-        editText3.check(matches(withText("1")));
-        onView(withId(R.id.username)).check(matches(isFocusable()));
+        textInputEditText2.perform(replaceText("5"), closeSoftKeyboard());
 
-        ViewInteraction editText4 = onView(
+        ViewInteraction textInputEditText3 = onView(
                 allOf(withId(R.id.password),
-                        withParent(withParent(withId(R.id.textInputLayoutPassword))),
                         isDisplayed()));
-        editText4.check(matches(withText("1")));
-        onView(withId(R.id.password)).check(matches(isFocusable()));
+        textInputEditText3.perform(replaceText("5"), closeSoftKeyboard());
+
+
 
         ViewInteraction appCompatButton = onView(
                 allOf(withId(R.id.buttonLogin),
@@ -107,9 +104,56 @@ public class LoginTest {
                                 4),
                         isDisplayed()));
         appCompatButton.perform(click());
+
+
+        ViewInteraction linearLayout = onView(
+                allOf(withId(R.id.FIRST_ACTIVITY_GROUP),
+                        isDisplayed()));
+        linearLayout.check(matches(isDisplayed()));
+
+        ViewInteraction button = onView(
+                allOf(withId(R.id.startyoga1),
+                        isDisplayed()));
+        button.check(matches(isDisplayed()));
+
+
+        button.perform(scrollTo(), click());
+
+        ViewInteraction linearLayout2 = onView(
+                allOf(withId(R.id.boat_pose),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("android.widget.LinearLayout")),
+                                        0),
+                                0)));
+        linearLayout2.perform(scrollTo(), click());
+
+        ViewInteraction button2= onView(
+                allOf(withId(R.id.startbutton),
+                        isDisplayed()));
+        button2.check(matches(isDisplayed()));
+
+
+        button2.perform(scrollTo(), click());
+
+
+
+        button2.check(matches(isDisplayed()));
+
+
+        button2.perform(scrollTo(), click());
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        button2.perform(scrollTo(), click());
+
+
+        button2.check(matches(isDisplayed()));
     }
-
-
 
     private static Matcher<View> childAtPosition(
             final Matcher<View> parentMatcher, final int position) {

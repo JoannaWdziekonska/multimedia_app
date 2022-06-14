@@ -55,7 +55,7 @@
                 />
 
             <TextView
-                android:id="@+id/startbutton"
+                android:id="@+id/instruction"
                 android:layout_width="354dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

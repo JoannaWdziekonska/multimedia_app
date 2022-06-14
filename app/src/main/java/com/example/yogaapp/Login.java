@@ -71,7 +71,7 @@ public class Login extends AppCompatActivity {
 
                             EspressoIdlingResource.increment();
                            // String url = String.format("http://localhost/LoginRegister/login.php", addr.getHostAddress());
-                            PutData pdata = new PutData("http://192.168.7.11/LoginRegister/login.php", "POST", field, data);
+                            PutData pdata = new PutData("http://10.1.237.95/LoginRegister/login.php", "POST", field, data);
                             if (pdata.startPut()) {
                                 if (pdata.onComplete()) {
                                     progressBar.setVisibility(View.GONE);

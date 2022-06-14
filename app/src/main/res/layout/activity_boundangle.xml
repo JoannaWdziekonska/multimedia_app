@@ -32,7 +32,7 @@
                 android:text="01:00"
                 android:textSize="28sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/purple_200"/>
+                app:backgroundTint="@color/purple_200" />
 
 
             <Button
@@ -54,6 +54,7 @@
                 />
 
             <TextView
+                android:id="@+id/instruction"
                 android:layout_width="356dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"

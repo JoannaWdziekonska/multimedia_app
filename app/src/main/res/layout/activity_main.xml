@@ -34,6 +34,7 @@
 
 
             <LinearLayout
+                android:id="@+id/FIRST_ACTIVITY_GROUP"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
@@ -154,6 +155,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/SECOND_ACTIVITY_GROUP"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
@@ -289,6 +291,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/THIRD_ACTIVITY_GROUP"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
