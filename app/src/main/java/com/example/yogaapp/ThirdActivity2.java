@@ -15,8 +15,8 @@ public class ThirdActivity2 extends AppCompatActivity {
     Button startBtn;
     private CountDownTimer countDownTimer;
     TextView mtextview;
-    private boolean MTimeRunning;
-    private long MTimeLeftinmillis;
+    boolean MTimeRunning;
+    long MTimeLeftinmillis;
 
 
     @Override
@@ -80,13 +80,13 @@ public class ThirdActivity2 extends AppCompatActivity {
 
     }
 
-    private void stoptimer(){
+    void stoptimer(){
         countDownTimer.cancel();
         MTimeRunning = false;
         startBtn.setText("START");
     }
 
-    private void startTimer(){
+    void startTimer(){
         final CharSequence value1 = mtextview.getText();
         String num1 = value1.toString();
         String num2 = num1.substring(0,2);
